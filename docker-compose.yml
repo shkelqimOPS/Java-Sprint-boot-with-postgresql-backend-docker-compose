@@ -9,8 +9,6 @@ services:
       MYSQL_DATABASE: 'test'
       MYSQL_USER: 'sa'
       MYSQL_PASSWORD: 'password'
-      #ports:
-      #- '3306'
     networks:
       - backend
   users-mysql:
