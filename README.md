@@ -2,6 +2,8 @@
 
 1. To build the stack:
 `docker-compose build`
+3.To run the stack:
+ `docker-compose up`
 
 2. In the Spring Boot Application, use the same container name of the mysql instance in the application.properties
 `spring.datasource.url = jdbc:mysql://mysql-standalone:3306/test`
